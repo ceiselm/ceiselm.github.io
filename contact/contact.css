@@ -1,0 +1,52 @@
+/*background page*/
+body {
+    background-color: indianred !important;
+}
+
+/*Home Page and Other Clicked Links*/
+a {
+    color: antiquewhite;
+    font-size: larger;
+    font-family: Verdana;
+    text-decoration:  none;
+}
+a:link {
+    color: antiquewhite;
+    text-decoration:  none;
+}
+a:visited {
+    color: antiquewhite;
+    text-decoration:  none;
+}
+a:hover {
+    color: antiquewhite;
+    text-decoration:  none;
+}
+
+a:active  {
+    /* Applies to activated links */
+    text-decoration:  none;
+    font-weight:      bold;
+    color: antiquewhite;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+p {
+    color: antiquewhite;
+    font-family: Verdana;
+}
+
+.jumbotron {
+    background-color: indianred !important;
+}
+
+#logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}

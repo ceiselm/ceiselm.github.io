@@ -1,0 +1,28 @@
+/*background page*/
+body {
+    background-color: indianred !important;
+}
+
+/*Home Page and Other Clicked Links*/
+a {
+    color: antiquewhite;
+    font-size: larger;
+    font-family: Verdana;
+    text-decoration:  none;
+}
+a:link {
+    color: antiquewhite;
+    text-decoration:  none;
+}
+a:visited {
+    color: antiquewhite;
+    text-decoration:  none;
+}
+a:hover {
+    color: antiquewhite;
+    text-decoration:  none;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:antiquewhite;
+}
