@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contact-icon {
+    height: 1.8em;
+    width: 3em;
+	
+}
+
+.contact-icon:hover {
+    position: relative;
+	opacity: .8;
+}
+
+.bg-dark {
+  background-color: #6E243B !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%236E243B' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
+}
+
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%236E243B' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 255);
+}
+
+.carousel-caption {
+	color: black;
+/*	background-color: white;*/
+}
+
+h5 {
+	color: #6E243B;
+}
+
+h5:hover, h5:link, h5:focus {
+	color: #EDA200;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+a:hover, a:link, a:focus {
+	color: inherit;
+}
+
+
