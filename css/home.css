@@ -5,6 +5,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+main {
+  padding-bottom: 2rem;
+}
+
 .footer {
   left: 0;
   bottom: 0;
@@ -13,6 +17,9 @@ body {
   color: white;
   text-align: center;
   height: 2rem;
+  position: relative;
+  margin-top: -2rem;
+  clear: both;
 }
 
 .footer-text {

@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6E243B;
+  color: white;
+  text-align: center;
+  height: 2rem;
+  position: fixed;
+}
+
+.footer-text {
+  font-size: .75rem;
+}
+
+.contact-icon {
+    height: 1.8em;
+    width: 3em;
+
+}
+
+.contact-icon:hover {
+    position: relative;
+	opacity: .8;
+}
+
+.bg-dark {
+  background-color: #6E243B !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 255);
+}
+
+h5 {
+	color: #6E243B;
+}
+
+h5:hover, h5:link, h5:focus {
+	color: #EDA200;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+a:hover, a:link, a:focus {
+	color: inherit;
+}
+
+.image {
+  position:relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  transition: 1s ease;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  background-color: #6E243B;
+}
+
+.col-md:hover .image {
+  opacity: 1;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.col-md:hover .overlay {
+  opacity: 0;
+}
+
+
+.text {
+  color: white;
+  font-size: 18pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 1 !important;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.slide-item {
+  width: 100%;
+}
+
+
+.slick-prev:before {
+  color: #6E243B;
+}
+
+.slick-next:before {
+  color: #6E243B;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #6E243B;
+}
+
+.slick-dots li button::before {
+  color: #6E243B;
+}
+
+.portion {
+  padding-top: 3%;
+}
+
+.google-slides-container{
+  position: relative;
+  width: 100%;
+  padding-top: 60%;
+  overflow: hidden;
+}
+
+.google-slides-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
