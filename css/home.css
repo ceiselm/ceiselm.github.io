@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .footer {
   left: 0;
   bottom: 0;
