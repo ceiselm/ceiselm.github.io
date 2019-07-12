@@ -12,6 +12,11 @@ body {
   background-color: #6E243B;
   color: white;
   text-align: center;
+  height: 2rem;
+}
+
+.footer-text {
+  font-size: .75rem;
 }
 
 .contact-icon {
@@ -49,13 +54,6 @@ a {
 a:hover, a:link, a:focus {
 	color: inherit;
 }
-
-/*
-.container {
-  position: relative;
-  width: 50%;
-}
-*/
 
 .image {
   position:relative;
@@ -129,3 +127,5 @@ a:hover, a:link, a:focus {
 .portion {
   padding-top: 3%;
 }
+
+
