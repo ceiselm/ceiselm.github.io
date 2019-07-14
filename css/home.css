@@ -9,6 +9,14 @@ main {
   padding-bottom: 2rem;
 }
 
+h1 {
+  align-items: left;
+}
+
+h2 {
+  align-items: left;
+}
+
 .footer {
   left: 0;
   bottom: 0;
@@ -47,6 +55,10 @@ main {
 
 .relatedlinks:hover, .relatedlinks:link, .relatedlinks:focus {
   	color: #EDA200;
+}
+
+h3 {
+  text-align: left;
 }
 
 h5 {
