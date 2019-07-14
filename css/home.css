@@ -9,12 +9,37 @@ main {
   padding-bottom: 2rem;
 }
 
-h1 {
+/* h1 {
   align-items: left;
 }
 
 h2 {
   align-items: left;
+} */
+
+/* h3 {
+  text-align: left;
+} */
+
+h5 {
+	color: #6E243B;
+}
+
+h5:hover, h5:link, h5:focus {
+	color: #EDA200;
+}
+
+.highlight:hover, .highlight:link, .highlight:focus {
+  	color: #EDA200;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+a:hover, a:link, a:focus {
+	color: inherit;
 }
 
 .footer {
@@ -55,27 +80,6 @@ h2 {
 
 .relatedlinks:hover, .relatedlinks:link, .relatedlinks:focus {
   	color: #EDA200;
-}
-
-h3 {
-  text-align: left;
-}
-
-h5 {
-	color: #6E243B;
-}
-
-h5:hover, h5:link, h5:focus {
-	color: #EDA200;
-}
-
-a {
-	text-decoration: none !important;
-	color: inherit;
-}
-
-a:hover, a:link, a:focus {
-	color: inherit;
 }
 
 .image {
