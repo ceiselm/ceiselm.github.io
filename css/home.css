@@ -45,6 +45,10 @@ main {
     color: rgba(255, 255, 255, 255);
 }
 
+.relatedlinks:hover, .relatedlinks:link, .relatedlinks:focus {
+  	color: #EDA200;
+}
+
 h5 {
 	color: #6E243B;
 }
@@ -150,4 +154,7 @@ a:hover, a:link, a:focus {
   height: 100%;
 }
 
-
+.gif {
+    max-width:100%;
+    height:auto;
+}
