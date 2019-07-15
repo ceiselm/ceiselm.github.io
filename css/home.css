@@ -174,3 +174,8 @@ a:hover, a:link, a:focus {
     max-width:100%;
     height:auto;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
