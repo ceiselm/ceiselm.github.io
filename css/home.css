@@ -192,7 +192,7 @@ a:hover, a:link, a:focus {
 }
 
 .experience-logo {
-  width: 100px;
+  width: 75px;
   height: auto;
 }
 
@@ -203,6 +203,10 @@ a:hover, a:link, a:focus {
   }
 }
 
-.experience-info {
-  font-size: 10pt;
+.experience-info-title {
+  font-size: 1rem;
+}
+
+.experience-info-subtitle {
+  font-size: .75rem !important;
 }
