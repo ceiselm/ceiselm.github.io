@@ -210,3 +210,12 @@ a:hover, a:link, a:focus {
 .experience-info-subtitle {
   font-size: .75rem !important;
 }
+
+break {
+  display: block;
+  height: 5px;
+  border: 1px;
+  border-top: 1px solid #6E243B;
+  margin: 1em 0;
+  padding: 0;
+}
