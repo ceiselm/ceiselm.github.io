@@ -225,8 +225,8 @@ a:hover, a:link, a:focus {
 }
 
 .award-image {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
@@ -237,4 +237,12 @@ a:hover, a:link, a:focus {
     height: auto;
     width: auto;
   }
+}
+
+.caption-header {
+  margin-bottom: 0rem !important;
+}
+
+.targetDiv {
+  display: none;
 }

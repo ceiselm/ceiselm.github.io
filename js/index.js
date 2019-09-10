@@ -47,8 +47,16 @@ $(document).ready(function(){
 $(document).ready(function () {
   $('#myModal').on('show.bs.modal', function (e) {
     var image = $(e.relatedTarget).attr('src');
+    var header = $(e.relatedTarget).attr('alt');
     var description = $(e.relatedTarget).attr('alt');
     $(".img-responsive").attr("src", image);
-    $(".description").text(description);
+    $(".caption-header").text(header);
+  });
+});
+
+$(document).ready(function(){
+  jQuery('.showSingle').click(function() {
+    jQuery('.targetDiv').hide();
+    jQuery('#div' + $(this).attr('target')).show();
   });
 });
