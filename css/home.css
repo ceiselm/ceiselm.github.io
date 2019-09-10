@@ -223,3 +223,18 @@ a:hover, a:link, a:focus {
 .section-header {
   font-size: 1.5rem !important;
 }
+
+.award-image {
+  height: 150px;
+  width: 150px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+@media (max-width: 700px) {
+  .award-image {
+    height: auto;
+    width: auto;
+  }
+}
