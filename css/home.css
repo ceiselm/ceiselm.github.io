@@ -160,6 +160,7 @@ a:hover, a:link, a:focus {
 
 .portion {
   padding-top: 3%;
+  width: 100%;
 }
 
 .google-slides-container{
