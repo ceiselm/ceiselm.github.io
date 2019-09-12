@@ -16,25 +16,24 @@ main {
   flex: 1 0 auto;
 }
 
-/* h1 {
-  align-items: left;
+h5 {
+  color: #6E243B;
+  font-size: medium;
+  font-weight: bold;
 }
 
-h2 {
-  align-items: left;
-} */
-
-/* h3 {
-  text-align: left;
-} */
-
-h5 {
-	color: #6E243B;
+p {
+  font-size: medium;
 }
 
 h5:hover, h5:link, h5:focus {
 	color: #EDA200;
 }
+
+h6:hover, h6:link, h6:focus {
+  color: #EDA200;
+}
+
 
 .highlight:hover, .highlight:link, .highlight:focus {
   	color: #EDA200;
