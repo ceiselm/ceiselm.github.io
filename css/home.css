@@ -236,24 +236,23 @@ a:hover, a:link, a:focus {
 }
 
 .award-image {
-    object-fit: cover;
-  height: 200px;
-  width: 200px;
+  /*object-fit: cover;*/
+  /*height: 200px;  */
+  /*width: 200px;*/
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
   background:none;
 }
 
+/*.award-image-tile {*/
+/*}*/
+
 @media (max-width: 700px) {
   .award-image {
     height: auto;
     width: auto;
   }
-}
-
-.award-image:hover, award-image:focus, award-image:link {
-  opacity: 0.5;
 }
 
 .award-image-overlay{
@@ -264,13 +263,22 @@ a:hover, a:link, a:focus {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.8;
-
+  opacity: 0;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  background-color: #6E243B;
 }
 
-.col-md:hover .award-image-overlay {
-  opacity: 0.8;
-  background-color: #6E243B;
+.project-info:hover .award-image-image {
+  opacity: 1;
+  transition: .5s ease;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.project-info:hover .award-image-overlay {
+  opacity: .9;
+  transition: .5s ease;
 }
 
 .caption-header {

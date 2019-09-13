@@ -1,8 +1,7 @@
 $(document).ready(function () {
   $('#myModal').on('show.bs.modal', function (e) {
-    var image = $(e.relatedTarget).attr('src');
-    var header = $(e.relatedTarget).attr('alt');
-    var description = $(e.relatedTarget).attr('alt');
+    var image = $(e.relatedTarget).children('img').attr('src');
+    var header = $(e.relatedTarget).children('img').attr('alt');
     $(".img-responsive").attr("src", image);
     $(".caption-header").text(header);
   });
