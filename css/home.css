@@ -26,16 +26,16 @@ p {
   font-size: medium;
 }
 
-h5:hover, h5:link, h5:focus, h5:active {
+h5:hover, h5:link, h5:focus {
 	color: #EDA200;
 }
 
-h6:hover, h6:link, h6:focus, h5:active {
+h6:hover, h6:link, h6:focus {
   color: #EDA200;
 }
 
 
-.highlight:hover, .highlight:link, .highlight:focus, .highlight:active {
+.highlight:hover, .highlight:link, .highlight:focus {
   	color: #EDA200;
 }
 
@@ -44,7 +44,7 @@ a {
 	color: inherit;
 }
 
-a:hover, a:link, a:focus, a:active {
+a:hover, a:link, a:focus {
 	color: inherit;
 }
 
@@ -72,7 +72,7 @@ a:hover, a:link, a:focus, a:active {
 
 }
 
-.contact-icon:hover, .contact-icon:active {
+.contact-icon:hover {
     position: relative;
 	opacity: .8;
 }
@@ -85,7 +85,7 @@ a:hover, a:link, a:focus, a:active {
     color: rgba(255, 255, 255, 255);
 }
 
-.relatedlinks:hover, .relatedlinks:link, .relatedlinks:focus, .relatedlinks:active {
+.relatedlinks:hover, .relatedlinks:link, .relatedlinks:focus {
   	color: #EDA200;
 }
 
@@ -112,13 +112,13 @@ a:hover, a:link, a:focus, a:active {
   background-color: #6E243B;
 }
 
-.project-info:hover, project-info:active  .image {
+.project-info:hover .image {
   opacity: 1;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
 
-.project-info:hover, project-info:active  .overlay {
+.project-info:hover .overlay {
   opacity: 0;
 }
 
@@ -273,14 +273,14 @@ a:hover, a:link, a:focus, a:active {
   background-color: #6E243B;
 }
 
-.project-info:hover, project-info:active .award-image-image {
+.project-info:hover .award-image-image {
   opacity: 1;
   transition: .5s ease;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
-.project-info:hover, project-info:active .award-image-overlay {
+.project-info:hover .award-image-overlay {
   opacity: .9;
   transition: .5s ease;
 }
@@ -319,14 +319,14 @@ a:hover, a:link, a:focus, a:active {
   background-color: #6E243B;
 }
 
-.project-info:hover, project-info:active  .tile-image {
+.project-info:hover .tile-image {
   opacity: 1;
   transition: .5s ease;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
-.project-info:hover, project-info:active  .tile-overlay {
+.project-info:hover .tile-overlay {
   opacity: .9;
   transition: .5s ease;
 }
