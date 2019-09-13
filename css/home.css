@@ -122,7 +122,6 @@ a:hover, a:link, a:focus {
   opacity: 0;
 }
 
-
 .text {
   color: white;
   position: absolute;
@@ -287,6 +286,38 @@ a:hover, a:link, a:focus {
   width: 200px;
 }
 
+.tile-image {
+  position:relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tile-overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  background-color: #6E243B;
+}
+
+.project-info:hover .tile-image {
+  opacity: 1;
+  transition: .5s ease;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.project-info:hover .tile-overlay {
+  opacity: .9;
+  transition: .5s ease;
+}
 
 @media (max-width: 700px) {
   .tile {
