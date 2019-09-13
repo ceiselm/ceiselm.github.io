@@ -112,13 +112,13 @@ a:hover, a:link, a:focus {
   background-color: #6E243B;
 }
 
-.col-md:hover .image {
+.project-info:hover .image {
   opacity: 1;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
 
-.col-md:hover .overlay {
+.project-info:hover .overlay {
   opacity: 0;
 }
 
@@ -191,11 +191,15 @@ a:hover, a:link, a:focus {
   font-size: large;
   padding-left: 5px;
   padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 700px) {
   .project-info {
     font-size: xx-large;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
   }
 }
 
@@ -276,4 +280,23 @@ a:hover, a:link, a:focus {
 
 .targetDiv {
   display: none;
+}
+
+.tile {
+  height: 200px;
+  width: 200px;
+}
+
+
+@media (max-width: 700px) {
+  .tile {
+    height: auto;
+    width: auto;
+  }
+}
+
+.tiles {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, 1fr););
 }
