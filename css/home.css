@@ -331,6 +331,22 @@ a:hover, a:link, a:focus {
   transition: .5s ease;
 }
 
+@media(any-hover: none) {
+  .project-info:hover .tile-image {
+    opacity: 1;
+    transition: .5s ease;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+}
+
+@media(any-hover: none) {
+  .project-info:hover .tile-overlay {
+    opacity: .9;
+    transition: .5s ease;
+  }
+}
+
 @media (max-width: 700px) {
   .tile {
     height: auto;
