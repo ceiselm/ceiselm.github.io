@@ -344,7 +344,7 @@ a:hover, a:link, a:focus {
   .project-info:hover .tile-overlay {
     opacity: .9;
     transition: .5s ease;
-  } 
+  }
 }
 
 @media (max-width: 700px) {
