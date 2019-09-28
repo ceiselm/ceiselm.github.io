@@ -33,7 +33,7 @@ p {
   font-weight: bold;
 }
 
-.clickme:link, .clickme:hover {
+.clickme:hover {
   color: #EDA200;
 }
 
