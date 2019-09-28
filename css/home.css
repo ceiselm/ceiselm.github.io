@@ -11,29 +11,36 @@ body {
   flex-direction: column;
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
-}
-
 main {
   padding-bottom: 2rem;
   flex: 1 0 auto;
 }
 
 h5 {
-  color: #6E243B;
-  font-size: medium;
+  /*color: #6E243B;*/
+  font-size: large;
   font-weight: bold;
   padding-top: 1rem;
 }
 
 p {
+  font-family: 'Open Sans', sans-serif;
   font-size: medium;
 }
 
-h5:hover, h5:link, h5:focus {
-	color: #EDA200;
+.clickme {
+  color: #6E243B;
+  font-weight: bold;
 }
+
+.clickme:hover, .clickme:link, .clickme:focus {
+  color: #EDA200;
+}
+
+/*h5:hover, h5:link, h5:focus {*/
+/*	color: #EDA200;*/
+/*}*/
+
 
 h6:hover, h6:link, h6:focus {
   color: #EDA200;
