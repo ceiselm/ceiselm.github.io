@@ -11,6 +11,10 @@ body {
   flex-direction: column;
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 main {
   padding-bottom: 2rem;
   flex: 1 0 auto;
@@ -20,6 +24,7 @@ h5 {
   color: #6E243B;
   font-size: medium;
   font-weight: bold;
+  padding-top: 1rem;
 }
 
 p {
@@ -363,3 +368,4 @@ a:hover, a:link, a:focus {
 .words {
   text-indent: 2rem;
 }
+
