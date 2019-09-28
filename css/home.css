@@ -359,3 +359,7 @@ a:hover, a:link, a:focus {
   grid-gap: 15px;
   grid-template-columns: repeat(auto-fit, 1fr););
 }
+
+.words {
+  text-indent: 2rem;
+}
